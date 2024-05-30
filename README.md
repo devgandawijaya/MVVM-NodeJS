@@ -1,6 +1,6 @@
-# Nama Proyek
+# MVVM NodeJS
 
-Deskripsi singkat tentang proyek Anda.
+Model-View-ViewModel (MVVM) adalah pola desain perangkat lunak yang memisahkan pengembangan antarmuka pengguna (View), logika bisnis atau logika presentasi (ViewModel), dan manajemen data (Model).
 
 ## Table of Contents
 
@@ -74,3 +74,25 @@ Ikuti langkah-langkah berikut untuk menginstal Node.js dan npm serta memulai pro
    ```sh
    mkdir nama-proyek
    cd nama-proyek
+
+### Struktur Proyek MVVM dengan Node.js
+**Model-View-ViewModel (MVVM) adalah pola desain perangkat lunak yang memisahkan pengembangan antarmuka pengguna (View), logika bisnis atau logika presentasi (ViewModel), dan manajemen data (Model). Dalam konteks Node.js, MVVM dapat diimplementasikan sebagai berikut:
+
+```sh
+proyek-anda/
+│
+├── models/
+│   ├── userModel.js
+│   └── productModel.js
+│
+├── views/
+│   ├── userView.js
+│   └── productView.js
+│
+├── viewmodels/
+│   ├── userViewModel.js
+│   └── productViewModel.js
+│
+├── app.js
+└── package.json
+```
